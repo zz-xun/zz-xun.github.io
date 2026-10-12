@@ -13,7 +13,7 @@ The page includes animated project and language switches, restrained scroll reve
 
 `assets/staysim-studio-full.png` is an uncropped full-page browser capture of the existing local StaySim Studio application, using a real offline rule-mode demo and loaded results. It replaces the old cropped `studio-preview.png`. This capture is presentation material, not evidence of LLM accuracy or a hosted Agent service.
 
-`assets/dilemma-arena-full.png` is captured from the existing local production build of Dilemma Arena, replacing the previous illustrated mockup.
+`assets/dilemma-arena-full.png` is captured from the existing local production build of Dilemma Arena, replacing the previous illustrated mockup. The portfolio and viewer display its central upper content in a compact frame, omitting the empty background below and beside the form.
 
 ## Development and publishing
 
