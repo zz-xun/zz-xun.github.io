@@ -1,15 +1,20 @@
-# zz-xun · AI Product Portfolio
+# 变量studio · Products & Experiments
 
-**Live site / 在线作品集：** https://zz-xun.github.io/
+Live portfolio: https://zz-xun.github.io/
 
-A bilingual portfolio for two independently built products:
+A quiet bilingual portfolio with two independently built products:
 
-- [StaySim Studio](https://github.com/zz-xun/staysim-agent): a LangGraph-based workflow for reviewable pedestrian simulation from normalized 2D DXF scenes. The public page links to real screenshots and source; it does not claim a hosted Agent service.
-- [纠结擂台 / Dilemma Arena](https://zz-xun.github.io/dilemma-arena/): a mobile-first React and TypeScript decision game available to play in the browser.
+- **StaySim Studio:** a reviewable LangGraph workflow for pedestrian simulation, run locally. Source: https://github.com/zz-xun/staysim-agent
+- **Dilemma Arena / 纠结擂台:** a browser-based interactive decision game. Play: https://zz-xun.github.io/dilemma-arena/
 
-The site also links to the public **变量studio** creator profiles on Bilibili, Douyin, and Xiaohongshu. It is a single dependency-free `index.html`; GitHub Pages serves it directly from `main`. There is no frontend API key, backend, or build step.
+The page includes animated project and language switches, restrained scroll reveals, and an accessible full-image viewer. Reduced-motion preferences are respected. Visible branding is 变量studio; GitHub account and repository URLs retain the actual `zz-xun` username.
 
----
+## Screenshots
 
-本仓库是中英双语的 GitHub Pages 作品集入口，集中展示两个产品与「变量studio」公开自媒体主页。StaySim Studio 展示真实界面、架构和代码，暂不提供公共 Agent 服务；纠结擂台可直接在线试玩。站点只有一个无依赖的 `index.html`，更新后推送到 `main` 即可重新发布。
+`assets/staysim-studio-full.png` is an uncropped full-page browser capture of the existing local StaySim Studio application, using a real offline rule-mode demo and loaded results. It replaces the old cropped `studio-preview.png`. This capture is presentation material, not evidence of LLM accuracy or a hosted Agent service.
 
+`assets/dilemma-arena-full.png` is captured from the existing local production build of Dilemma Arena, replacing the previous illustrated mockup.
+
+## Development and publishing
+
+No dependencies or build step: serve this directory with a static HTTP server. GitHub Pages publishes the root of `main`. Commit `index.html`, `README.md`, and `assets/` together.
